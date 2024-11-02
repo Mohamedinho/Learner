@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/*class de l'entet */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/*class menu */
+.menu-icons {
+    display: flex;
+    align-items: center;
+}
+/*class search-container*/
+
+.search-container {
+    flex-grow: 1; /* Takes up available space in the center */
+    display: flex;
+    justify-content: center; /* Centers the search bar */
+    margin: 0 20px; /* Space on the sides of the search bar */
+}
+/*class search-bar */
+.search-bar {
+    width: 300px; /* Width of the search bar */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px; /* Rounded corners */
+}
+/*class search-button */
+.search-button {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-left: none; /* Removes the left border */
+    border-radius: 0 4px 4px 0; /* Rounded corners */
+    background-color: #007BFF; /* Button color */
+    color: white; /* Text color */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+}
+/*l'hover du button search */
+.search-button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+/*class de logo siteweb */
+.logo img {
+    height: 70px; /* Adjust logo size */
+    padding-right: 20px;
+}
